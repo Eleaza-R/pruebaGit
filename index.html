@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+     <link rel="stylesheet"href="./css/style.css">
+    <!-- link css para boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- para poder escoger diferentes iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- row para que se ordene en filas -->
+    <main class="container row">
+      <!-- como son 12 columnas por cajita, se divide en 8 y 12 , el md significa desde pantallas md en adelante -->
+      <section class="col-md-8">
+        <!-- pt=padding top
+         el 5 significa el tamaño -->
+        <h1 class="pt-5">Desserts</h1>
+
+        <!-- seccion principal para los postres -->
+         <section class="row">
+            <div class="col-md-4  mb-4">
+              
+                <!-- la clase img-fluid da un ancho de imagen para que se adapte al contenedor -->
+                <img src="./images/image-waffle-desktop.jpg" alt="" class="img-fluid ">
+                <!-- rounded: genera un border-radious 
+                 <i class="bi bi-cart-plus"></i> pone un icono
+                 d-block : display:block(elemento en bloque)
+                 mx-aut: margen automatico 
+                 y todo junto se centra
+                 mt-2: margin top de 2-->
+                 <div class="position-relative mt-3">
+                  <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                  <p class="text-muted mb-0">Creme Brulee</p>
+                 
+                  <!-- 
+                  <span class="text-muted">Waffle</span>
+
+                  fw-bold: pone en negrita el texto
+                   text-primary: color celeste al texto 
+                   mb-0 : margin bottom de 0-->
+
+                   <p class="fw-bold mb-0 text-black">Vainila Bean Creme Brule</p>
+                   <p class="text-danger fw-bold mb-0">$7.00</p>
+                 </div>
+                
+            </div > 
+
+            <div class="col-md-4 mb-4">
+              <img src="./images/image-creme-brulee-desktop.jpg" alt="" class="img-fluid">
+              <div class="position-relative mt-3">
+                  <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                  <p class="text-muted mb-0">Creme Brulee</p>
+                  <p class="fw-bold mb-0 text-black">Vainila Bean Creme Brule</p>
+                  <p class="text-danger fw-bold mb-0">$7.00</p>
+              </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <img src="./images/image-macaron-desktop.jpg" alt="" class="img-fluid">
+            <div class="position-relative mt-3">
+                <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                <p class="text-muted mb-0">Macaron</p>
+                <p class="fw-bold mb-0 text-black">Macaron Mix of Five</p>
+                <p class="text-danger fw-bold mb-0">$8.00</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="./images/image-tiramisu-desktop.jpg" alt="" class="img-fluid">
+            <div class="position-relative mt-3">
+                <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                <p class="text-muted mb-0">Tiramisu</p>
+                <p class="fw-bold mb-0 text-black">Classic Tiramisu</p>
+                <p class="text-danger fw-bold mb-0">$5.50</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="./images/image-baklava-desktop.jpg" alt="" class="img-fluid">
+            <div class="position-relative mt-3">
+                <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                <p class="text-muted mb-0">Baklava</p>
+                <p class="fw-bold mb-0 text-black">Pistacho Baklava</p>
+                <p class="text-danger fw-bold mb-0">$4.00</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="./images/image-meringue-desktop.jpg" alt="" class="img-fluid">
+            <div class="position-relative mt-3">
+                <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                <p class="text-muted mb-0">Pie</p>
+                <p class="fw-bold mb-0 text-black">Lemon Meringue Pie</p>
+                <p class="text-danger fw-bold mb-0">$5.00</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="./images/image-cake-desktop.jpg" alt="" class="img-fluid">
+            <div class="position-relative mt-3">
+                <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                <p class="text-muted mb-0">Cake</p>
+                <p class="fw-bold mb-0 text-black">Red Velvet Cake</p>
+                <p class="text-danger fw-bold mb-0">$4.50</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="./images/image-brownie-desktop.jpg" alt="" class="img-fluid">
+            <div class="position-relative mt-3">
+                <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                <p class="text-muted mb-0">Brownie</p>
+                <p class="fw-bold mb-0 text-black">Salted Caramel Brownie</p>
+                <p class="text-danger fw-bold mb-0">$5.50</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="./images/image-panna-cotta-desktop.jpg" alt="" class="img-fluid">
+            <div class="position-relative mt-3">
+                <button class="rounded-4 p-2 border border-secondary position-absolute bottom-100 start-50 translate-middle-x w-75"><i class="bi bi-cart-plus"></i> add to cart</button>
+                <p class="text-muted mb-0">Panna Cotta</p>
+                <p class="fw-bold mb-0 text-black">Vanilla Panna Cotta</p>
+                <p class="text-danger fw-bold mb-0">$6.50</p>
+            </div>
+        </div>
+
+
+         </section>
+
+      </section>
+
+      <section class="col-md-4 pt-5">
+        <section class="row card custom-card custom-box  p-4"> 
+          <!-- Cuando no hay elementos en el carrito
+           <div class=" custom-box  p-4">
+            <h2 class="pt-5">Your Cart(0)</h2>
+            <img src="./images/illustration-empty-cart.svg" alt="icono" class="img-fluid d-block mx-auto">
+            <p>Your added items will appear here</p>
+          </div>
+          
+          -->
+          <div class="card-body">
+            <h2 class="text-danger">Your Cart (3)</h2>
+
+            <!-- lista para cada elemento -->
+            <ul class="list-group list-group-flush">
+
+              <li class="list-group-item d-flex flex-column">
+                <span class="text-dark fw-bold">Classic Tiramisu</span>
+                <div class="d-flex mt-2">
+                  <span class="text-warning fw-bold me-3">1x</span>
+                  <span class="text-muted me-3">@$5.50</span>
+                  <span class="color-precio">$5.50</span>
+                </div>
+              </li>
+
+
+              <li class="list-group-item d-flex flex-column">
+                <span class="text-dark fw-bold">Vanilla Bean Crème Brûlée</span>
+                <div class="d-flex mt-2">
+                  <span class="text-warning fw-bold me-3">4x</span>
+                  <span class="text-muted me-3">@$28.00</span>
+                  <span class="color-precio">$28.00</span>
+                </div>
+              </li>
+
+              <li class="list-group-item d-flex flex-column">
+                <span class="text-dark fw-bold">Vanilla Panna Cotta</span>
+                <div class="d-flex mt-2">
+                  <span class="text-warning fw-bold me-3">2x</span>
+                  <span class="text-muted me-3">@$13.00</span>
+                  <span class="color-precio">$13.00</span>
+                </div>
+              </li>
+
+            
+
+            </ul>
+            <div class="text-right mt-3">
+              <h4 class="order-total">Order Total <span class="p-4">$46.50</span> </h4>
+            </div>
+            <div class="color-carbon p-3 mt-3 rounded text-center">
+              <i><img src="/images/icon-carbon-neutral.svg"></i>
+              This is a <strong>carbon-neutral</strong> delivery
+            </div>
+            <button class="btn btn-danger mt-3 w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Confirm Order</button>
+         </div>
+        </section>
+        
+      </section>
+
+      <!-- MODAL -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Header del modal -->
+            <div class="modal-header flex-column align-items-start">
+              <h5 class="modal-title" id="exampleModalLabel">Order Confirmed</h5>
+              <p>We hope you enjoy your food!</p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Cuerpo del modal -->
+            <div class="modal-body">
+              <div class="card-body">
+                <!-- Lista para cada elemento -->
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item d-flex flex-column">
+                    <span class="text-dark fw-bold">Classic Tiramisu</span>
+                    <div class="d-flex mt-2">
+                      <span class="text-warning fw-bold me-3">1x</span>
+                      <span class="text-muted me-3">@$5.50</span>
+                      <span class="color-precio">$5.50</span>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex flex-column">
+                    <span class="text-dark fw-bold">Vanilla Bean Crème Brûlée</span>
+                    <div class="d-flex mt-2">
+                      <span class="text-warning fw-bold me-3">4x</span>
+                      <span class="text-muted me-3">@$28.00</span>
+                      <span class="color-precio">$28.00</span>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex flex-column">
+                    <span class="text-dark fw-bold">Vanilla Panna Cotta</span>
+                    <div class="d-flex mt-2">
+                      <span class="text-warning fw-bold me-3">2x</span>
+                      <span class="text-muted me-3">@$13.00</span>
+                      <span class="color-precio">$13.00</span>
+                    </div>
+                  </li>
+                </ul>
+                <div class="d-flex justify-content-between mt-3">
+                  <h4 class="order-total">Order Total</h4>
+                  <h4 class="order-total">$46.50</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Pie del modal -->
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-danger">Start New Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+  </body>
+  <!-- link javascript para boostrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</html>
